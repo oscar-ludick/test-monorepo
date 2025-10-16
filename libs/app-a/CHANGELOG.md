@@ -1,3 +1,13 @@
+## 0.1.1-beta.0 (2025-10-16)
+
+### 🩹 Fixes
+
+- **app-a:** import ([275ed73](https://github.com/oscar-ludick/test-monorepo/commit/275ed73))
+
+### ❤️ Thank You
+
+- Oscar Ivan Ludick G
+
 ## 0.1.0 (2025-10-16)
 
 ### 🚀 Features
