@@ -5,7 +5,16 @@
   "prefix": "lib",
   "projectType": "library",
   "release": {
+    "git": {
+      "commit": true,
+      "tag": true,
+      "stageChanges": true,
+      "push": true,
+      "pushArgs": ["--follow-tags"],
+      "commitArgs": ["--no-verify"]
+    },
     "version": {
+      "preVersionCommand": "npx nx run app-b:build:production",
       "manifestRootsToUpdate": [
         "dist/{projectRoot}",
         {
@@ -13,14 +22,6 @@
           "preserveLocalDependencyProtocols": true
         }
       ],
-      "git": {
-        "commit": true,
-        "tag": true,
-        "stageChanges": true,
-        "push": true,
-        "pushArgs": ["--follow-tags"],
-        "commitArgs": ["--no-verify"]
-      },
       "currentVersionResolver": "git-tag",
       "fallbackCurrentVersionResolver": "disk"
     }
@@ -29,9 +30,7 @@
   "targets": {
     "build": {
       "executor": "@nx/angular:package",
-      "outputs": [
-        "{workspaceRoot}/dist/{projectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
         "project": "libs/app-b/ng-package.json",
         "tsConfig": "libs/app-b/tsconfig.lib.json"
@@ -51,9 +50,7 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": [
-        "{workspaceRoot}/coverage/{projectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
         "jestConfig": "libs/app-b/jest.config.ts",
         "tsConfig": "libs/app-b/tsconfig.spec.json"

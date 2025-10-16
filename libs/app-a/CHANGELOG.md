@@ -1,3 +1,41 @@
+## 0.1.1-beta.11 (2025-10-16)
+
+### 🚀 Features
+
+- **app-a, app-b:** bump ([c06d093](https://github.com/oscar-ludick/test-monorepo/commit/c06d093))
+- **app-test, app-a:** bump ([c9612be](https://github.com/oscar-ludick/test-monorepo/commit/c9612be))
+- **app-a, app-b:** bump ([27453b1](https://github.com/oscar-ludick/test-monorepo/commit/27453b1))
+- **app-a, app-b:** bump ([cb9b376](https://github.com/oscar-ludick/test-monorepo/commit/cb9b376))
+- **app-a, app-b:** bump ([e0ea0c4](https://github.com/oscar-ludick/test-monorepo/commit/e0ea0c4))
+- **app-a:** bump ([f95338b](https://github.com/oscar-ludick/test-monorepo/commit/f95338b))
+- **app-a, app-b:** new release 3 ([80d2fa3](https://github.com/oscar-ludick/test-monorepo/commit/80d2fa3))
+- **app-a, app-b:** new release 2 ([654c935](https://github.com/oscar-ludick/test-monorepo/commit/654c935))
+- **app-a, app-b:** new release ([aa81b84](https://github.com/oscar-ludick/test-monorepo/commit/aa81b84))
+
+### 🩹 Fixes
+
+- **app-a:** bump ([0ca8095](https://github.com/oscar-ludick/test-monorepo/commit/0ca8095))
+- **app-a, app-b:** bump ([7425d6b](https://github.com/oscar-ludick/test-monorepo/commit/7425d6b))
+- **app-a, app-b:** bump ([71e306d](https://github.com/oscar-ludick/test-monorepo/commit/71e306d))
+- **app-a:** bump ([f5ca0d3](https://github.com/oscar-ludick/test-monorepo/commit/f5ca0d3))
+- **app-a:** bump ([ce4e684](https://github.com/oscar-ludick/test-monorepo/commit/ce4e684))
+- **app-a:** release bump ([f3a8f2c](https://github.com/oscar-ludick/test-monorepo/commit/f3a8f2c))
+- **app-a, app-b:** release bump ([8ef0769](https://github.com/oscar-ludick/test-monorepo/commit/8ef0769))
+- **app-a:** release bump ([d89e4e3](https://github.com/oscar-ludick/test-monorepo/commit/d89e4e3))
+- **app-a:** release bump ([f59fcf2](https://github.com/oscar-ludick/test-monorepo/commit/f59fcf2))
+- **app-a:** release bump ([69a4c3c](https://github.com/oscar-ludick/test-monorepo/commit/69a4c3c))
+- **app-a, app-b:** release bump ([83c25f0](https://github.com/oscar-ludick/test-monorepo/commit/83c25f0))
+- **app-a, app-b:** test placeholder ([83a83fb](https://github.com/oscar-ludick/test-monorepo/commit/83a83fb))
+- **app-a:** import ([275ed73](https://github.com/oscar-ludick/test-monorepo/commit/275ed73))
+
+### 🧱 Updated Dependencies
+
+- Updated app-b to 0.1.1-beta.6
+
+### ❤️ Thank You
+
+- Oscar Ivan Ludick G
+
 ## 0.1.1-beta.10 (2025-10-16)
 
 ### 🚀 Features
