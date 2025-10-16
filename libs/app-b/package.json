@@ -6,6 +6,7 @@
     "@angular/core": "^20.1.0"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "sideEffects": false

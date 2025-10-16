@@ -5,6 +5,7 @@
     "@testing21/app-b": "*"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
