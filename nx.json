@@ -69,11 +69,13 @@
   },
   "release": {
     "releaseTagPattern": "releases/{projectName}/v{version}",
-    "git": {
-      "commit": false,
-      "tag": false,
-      "push": false,
-      "stageChanges": false
+    "version": {
+      "git": {
+        "commit": true,
+        "push": true,
+        "pushArgs": ["--follow-tags"],
+        "commitArgs": ["--no-verify"]
+      }
     },
     "groups": {
       "libs" : {
@@ -83,6 +85,7 @@
           "projectChangelogs": true
         },
         "version": {
+          "groupPreVersionCommand": "npx nx run-many -t build --projects=libs/*",
           "preserveLocalDependencyProtocols": false,
           "conventionalCommits": true
         }
@@ -95,7 +98,10 @@
         },
         "version": {
           "currentVersionResolver": "disk",
-          "conventionalCommits": false
+          "conventionalCommits": false,
+          "versionActionsOptions": {
+            "skipLockFileUpdate": true
+          }
         }
       }
     }

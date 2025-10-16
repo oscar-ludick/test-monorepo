@@ -5,16 +5,7 @@
   "prefix": "lib",
   "projectType": "library",
   "release": {
-    "git": {
-      "commit": true,
-      "tag": true,
-      "stageChanges": true,
-      "push": true,
-      "pushArgs": ["--follow-tags"],
-      "commitArgs": ["--no-verify"]
-    },
     "version": {
-      "preVersionCommand": "npx nx run app-a:build:production",
       "manifestRootsToUpdate": [
         "dist/{projectRoot}",
         {
