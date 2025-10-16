@@ -217,11 +217,11 @@ importers:
         specifier: ~20.1.0
         version: 20.1.8(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.1.8(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
       '@testing21/app-a':
-        specifier: 0.1.1-beta.5
-        version: 0.1.1-beta.5(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
+        specifier: 0.1.1-beta.6
+        version: 0.1.1-beta.6(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
       '@testing21/app-b':
-        specifier: 0.1.1-beta.1
-        version: 0.1.1-beta.1(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
+        specifier: 0.1.1-beta.2
+        version: 0.1.1-beta.2(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -3133,20 +3133,14 @@ packages:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
 
-  '@testing21/app-a@0.1.1-beta.5':
-    resolution: {integrity: sha512-6BjoD0rLFwyk2kGDjasUpISov9dla7UNQlLGouRIh9ENZOFT114I82qs7QeZZs6C8Jpf4/9s7bWwITo6J85CYw==}
+  '@testing21/app-a@0.1.1-beta.6':
+    resolution: {integrity: sha512-pz7cxRMUZf9x7/FuWSL14UWXCbehdtMpi84D1SJHUWalNy66LQ43ZEcXrFKBfcxkx9S+Ky+HJql0DaosrvmhVg==}
     peerDependencies:
       '@angular/common': ^20.1.0
       '@angular/core': ^20.1.0
 
-  '@testing21/app-b@0.1.0':
-    resolution: {integrity: sha512-kcMh8PdseStjM1cBq71tI8D9Tb8q6KiJ8w/2TRjPTZO6i2vHkMi2+aY3v9O005zUQPYies+GsHbGB3ix9Uom7A==}
-    peerDependencies:
-      '@angular/common': ^20.1.0
-      '@angular/core': ^20.1.0
-
-  '@testing21/app-b@0.1.1-beta.1':
-    resolution: {integrity: sha512-FqerjeekCAYEHjtHnioSZfFnLdH66116uTjpD0YcRom7UKmPoq+AbvW3Sg1tzO7uT9FUZozHAljm1qa1NkYcUQ==}
+  '@testing21/app-b@0.1.1-beta.2':
+    resolution: {integrity: sha512-Lce8LGb4jAmuiUSbVB4ykbP8u1b895vJdHVe+hZhgx4BCR6tULla0fNfRlM2dJ7tNzgK1CT8sMhG+b9QHBgLPQ==}
     peerDependencies:
       '@angular/common': ^20.1.0
       '@angular/core': ^20.1.0
@@ -12902,20 +12896,14 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@testing21/app-a@0.1.1-beta.5(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))':
+  '@testing21/app-a@0.1.1-beta.6(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))':
     dependencies:
       '@angular/common': 20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
       '@angular/core': 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@testing21/app-b': 0.1.0(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
+      '@testing21/app-b': 0.1.1-beta.2(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
       tslib: 2.8.1
 
-  '@testing21/app-b@0.1.0(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))':
-    dependencies:
-      '@angular/common': 20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/core': 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
-      tslib: 2.8.1
-
-  '@testing21/app-b@0.1.1-beta.1(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))':
+  '@testing21/app-b@0.1.1-beta.2(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))':
     dependencies:
       '@angular/common': 20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
       '@angular/core': 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
