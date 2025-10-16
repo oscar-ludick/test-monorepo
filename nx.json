@@ -71,15 +71,14 @@
     "projects": ["libs/**"],
     "projectsRelationship": "independent",
     "releaseTagPattern": "libs/{projectName}/v{version}",
-    "git": {
-      "commit": true,
-      "commitArgs": ["--no-verify"]
-    },
     "changelog": {
       "projectChangelogs": true
     },
     "version": {
-      "conventionalCommits": true,
+      "git": {
+        "commit": true,
+        "commitArgs": ["--no-verify"]
+      },
       "manifestRootsToUpdate": [
         "{projectRoot}",
         {
@@ -87,6 +86,7 @@
           "preserveLocalDependencyProtocols": false
         }
       ],
+      "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
     }
   }
