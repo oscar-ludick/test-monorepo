@@ -74,13 +74,16 @@
     "changelog": {
       "projectChangelogs": true
     },
+    "git": {
+      "commit": true,
+      "commitArgs": ["--no-verify"]
+    },
     "version": {
-      "git": {
-        "commit": true,
-        "commitArgs": ["--no-verify"]
-      },
       "manifestRootsToUpdate": [
-        "{projectRoot}",
+        {
+          "path": "libs/{projectName}",
+          "preserveLocalDependencyProtocols": false
+        },
         {
           "path": "dist/libs/{projectName}",
           "preserveLocalDependencyProtocols": false
