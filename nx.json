@@ -79,16 +79,6 @@
       "commitArgs": ["--no-verify"]
     },
     "version": {
-      "manifestRootsToUpdate": [
-        {
-          "path": "libs/{projectName}",
-          "preserveLocalDependencyProtocols": false
-        },
-        {
-          "path": "dist/libs/{projectName}",
-          "preserveLocalDependencyProtocols": false
-        }
-      ],
       "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
     }
