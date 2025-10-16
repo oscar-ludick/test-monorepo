@@ -1,3 +1,13 @@
+## 0.1.1-beta.5 (2025-10-16)
+
+### 🩹 Fixes
+
+- **app-a:** bump ([ce4e684](https://github.com/oscar-ludick/test-monorepo/commit/ce4e684))
+
+### ❤️ Thank You
+
+- Oscar Ivan Ludick G
+
 ## 0.1.1-beta.4 (2025-10-16)
 
 ### 🩹 Fixes
