@@ -68,25 +68,24 @@
     }
   },
   "release": {
-
+    "releaseTagPattern": "libs/{projectName}/v{version}",
+    "git": {
+      "commit": true,
+      "push": true,
+      "pushArgs": ["--follow-tags"],
+      "commitArgs": ["--no-verify"]
+    },
+    "version": {
+      "preserveLocalDependencyProtocols": false,
+      "conventionalCommits": true,
+      "preVersionCommand": "npx nx run-many -t build"
+    },
     "groups": {
       "libs" : {
         "projects": ["libs/**"],
         "projectsRelationship": "independent",
-        "releaseTagPattern": "libs/{projectName}/v{version}",
         "changelog": {
           "projectChangelogs": true
-        },
-        "git": {
-          "commit": true,
-          "push": true,
-          "pushArgs": ["--follow-tags"],
-          "commitArgs": ["--no-verify"]
-        },
-        "version": {
-          "preserveLocalDependencyProtocols": false,
-          "conventionalCommits": true,
-          "preVersionCommand": "npx nx run-many -t build"
         }
       }
     }
