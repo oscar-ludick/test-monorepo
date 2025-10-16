@@ -8,7 +8,10 @@
     "version": {
       "manifestRootsToUpdate": [
         "dist/{projectRoot}",
-        "libs/{projectName}"
+        {
+          "path": "libs/{projectName}",
+          "preserveLocalDependencyProtocols": true
+        }
       ],
       "currentVersionResolver": "git-tag",
       "fallbackCurrentVersionResolver": "disk"
