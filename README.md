@@ -10,4 +10,7 @@ next releases
 npx nx release --preid=beta --verbose
 
 
-nx release --projects=app-a --preid=beta  --verbose
+npx nx release --projects=app-a --preid=beta  --verbose
+
+
+npx nx affected --target=release --base=origin/main --head=HEAD
