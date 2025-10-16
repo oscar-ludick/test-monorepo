@@ -87,7 +87,7 @@
           "preserveLocalDependencyProtocols": false
         }
       ],
-      "preVersionCommand": "npx nx run-many -t build"
+      "preVersionCommand": "npx nx affected:build --base=main --head=HEAD"
     }
   }
 }
