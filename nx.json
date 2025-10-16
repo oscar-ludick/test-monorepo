@@ -70,15 +70,10 @@
   "release": {
     "releaseTagPattern": "releases/{projectName}/v{version}",
     "git": {
-      "commit": true,
-      "push": true,
-      "pushArgs": ["--follow-tags"],
-      "commitArgs": ["--no-verify"]
-    },
-    "version": {
-      "preserveLocalDependencyProtocols": false,
-      "conventionalCommits": true,
-      "preVersionCommand": "npx nx run-many -t build"
+      "commit": false,
+      "tag": false,
+      "push": false,
+      "stageChanges": false
     },
     "groups": {
       "libs" : {
@@ -86,13 +81,21 @@
         "projectsRelationship": "independent",
         "changelog": {
           "projectChangelogs": true
+        },
+        "version": {
+          "preserveLocalDependencyProtocols": false,
+          "conventionalCommits": true
         }
       },
-      "apps" : {
-        "projects": ["apps/**"],
+      "test" : {
+        "projects": ["apps/app-test"],
         "projectsRelationship": "independent",
         "changelog": {
           "projectChangelogs": true
+        },
+        "version": {
+          "currentVersionResolver": "disk",
+          "conventionalCommits": false,
         }
       }
     }
