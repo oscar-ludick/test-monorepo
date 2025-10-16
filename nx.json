@@ -68,7 +68,6 @@
     }
   },
   "release": {
-    "projects": ["libs/**"],
     "projectsRelationship": "independent",
     "releaseTagPattern": "libs/{projectName}/v{version}",
     "changelog": {
@@ -76,6 +75,7 @@
     },
     "git": {
       "commit": true,
+      "pushArgs": ["--follow-tags"],
       "commitArgs": ["--no-verify"]
     },
     "version": {
