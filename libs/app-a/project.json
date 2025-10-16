@@ -8,6 +8,7 @@
     "version": {
       "manifestRootsToUpdate": [
         "dist/{projectRoot}",
+        "apps/app",
         {
           "path": "libs/{projectName}",
           "preserveLocalDependencyProtocols": true
