@@ -1,3 +1,17 @@
+## 0.1.1-beta.10 (2025-10-16)
+
+### 🚀 Features
+
+- **app-a, app-b:** bump ([27453b1](https://github.com/oscar-ludick/test-monorepo/commit/27453b1))
+
+### 🧱 Updated Dependencies
+
+- Updated app-b to 0.1.1-beta.5
+
+### ❤️ Thank You
+
+- Oscar Ivan Ludick G
+
 ## 0.1.1-beta.9 (2025-10-16)
 
 ### 🚀 Features
