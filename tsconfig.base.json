@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "app-a": ["libs/app-a/src/index.ts"],
-      "app-b": ["libs/app-b/src/index.ts"]
+      "@testing21/app-a": ["libs/app-a/src/index.ts"],
+      "@testing21/app-b": ["libs/app-b/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

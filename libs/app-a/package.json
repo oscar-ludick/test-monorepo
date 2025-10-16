@@ -1,8 +1,8 @@
 {
-  "name": "app-a",
+  "name": "@testing21/app-a",
   "version": "0.0.1",
   "dependencies": {
-    "app-b": "*"
+    "@testing21/app-b": "*"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
