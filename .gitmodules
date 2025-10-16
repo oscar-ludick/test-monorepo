@@ -1,0 +1,3 @@
+[submodule "apps/app-test"]
+	path = apps/app-test
+	url = git@github.com:oscar-ludick/-app-test.git

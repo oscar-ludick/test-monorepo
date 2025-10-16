@@ -68,7 +68,7 @@
     }
   },
   "release": {
-    "releaseTagPattern": "libs/{projectName}/v{version}",
+    "releaseTagPattern": "releases/{projectName}/v{version}",
     "git": {
       "commit": true,
       "push": true,
@@ -83,6 +83,13 @@
     "groups": {
       "libs" : {
         "projects": ["libs/**"],
+        "projectsRelationship": "independent",
+        "changelog": {
+          "projectChangelogs": true
+        }
+      },
+      "apps" : {
+        "projects": ["apps/**"],
         "projectsRelationship": "independent",
         "changelog": {
           "projectChangelogs": true
