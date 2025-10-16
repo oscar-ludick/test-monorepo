@@ -2,7 +2,7 @@
   "name": "@testing21/app-a",
   "version": "0.1.1-beta.1",
   "dependencies": {
-    "@testing21/app-b": "*"
+    "@testing21/app-b": "workspace:*"
   },
   "publishConfig": {
     "access": "public",

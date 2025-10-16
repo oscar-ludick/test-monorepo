@@ -81,10 +81,7 @@
     "version": {
       "conventionalCommits": true,
       "manifestRootsToUpdate": [
-        {
-          "path": "libs/{projectName}",
-          "preserveLocalDependencyProtocols": false
-        },
+        "{projectRoot}",
         {
           "path": "dist/libs/{projectName}",
           "preserveLocalDependencyProtocols": false
