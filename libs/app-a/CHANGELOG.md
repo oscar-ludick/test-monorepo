@@ -1,3 +1,13 @@
+## 0.1.1-beta.6 (2025-10-16)
+
+### 🩹 Fixes
+
+- **app-a:** bump ([f5ca0d3](https://github.com/oscar-ludick/test-monorepo/commit/f5ca0d3))
+
+### ❤️ Thank You
+
+- Oscar Ivan Ludick G
+
 ## 0.1.1-beta.5 (2025-10-16)
 
 ### 🩹 Fixes
