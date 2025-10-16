@@ -13,6 +13,14 @@
           "preserveLocalDependencyProtocols": true
         }
       ],
+      "git": {
+        "commit": true,
+        "tag": true,
+        "stageChanges": true,
+        "push": true,
+        "pushArgs": ["--follow-tags"],
+        "commitArgs": ["--no-verify"]
+      },
       "currentVersionResolver": "git-tag",
       "fallbackCurrentVersionResolver": "disk"
     }

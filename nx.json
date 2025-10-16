@@ -84,7 +84,8 @@
         },
         "version": {
           "preserveLocalDependencyProtocols": false,
-          "conventionalCommits": true
+          "conventionalCommits": true,
+          "preVersionCommand": "npx nx run-many -t build --type=lib"
         }
       },
       "test" : {
@@ -95,7 +96,7 @@
         },
         "version": {
           "currentVersionResolver": "disk",
-          "conventionalCommits": false,
+          "conventionalCommits": false
         }
       }
     }

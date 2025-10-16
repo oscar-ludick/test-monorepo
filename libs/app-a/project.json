@@ -6,8 +6,6 @@
   "projectType": "library",
   "release": {
     "version": {
-      "preserveLocalDependencyProtocols": false,
-      "conventionalCommits": true,
       "manifestRootsToUpdate": [
         "dist/{projectRoot}",
         {
