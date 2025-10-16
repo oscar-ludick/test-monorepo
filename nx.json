@@ -81,7 +81,7 @@
     "version": {
       "preserveLocalDependencyProtocols": false,
       "conventionalCommits": true,
-      "preVersionCommand": "npx nx run-many -t build",
+      "preVersionCommand": "npx nx run-many -t build"
     }
   }
 }
