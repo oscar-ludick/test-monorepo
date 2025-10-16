@@ -79,6 +79,7 @@
         },
         "git": {
           "commit": true,
+          "push": true,
           "pushArgs": ["--follow-tags"],
           "commitArgs": ["--no-verify"]
         },
