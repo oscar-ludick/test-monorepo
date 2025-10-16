@@ -1,6 +1,6 @@
 {
   "name": "@testing21/app-b",
-  "version": "0.1.1-beta.1",
+  "version": "0.1.1-beta.2",
   "peerDependencies": {
     "@angular/common": "^20.1.0",
     "@angular/core": "^20.1.0"
