@@ -4,6 +4,10 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
+  "workspaces": [
+    "apps/**",
+    "libs/**"
+  ],
   "dependencies": {
     "@angular/common": "~20.1.0",
     "@angular/compiler": "~20.1.0",

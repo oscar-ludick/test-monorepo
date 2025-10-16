@@ -1,6 +1,12 @@
 {
   "name": "app-a",
   "version": "0.0.1",
+  "dependencies": {
+    "app-b": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "@angular/common": "^20.1.0",
     "@angular/core": "^20.1.0"

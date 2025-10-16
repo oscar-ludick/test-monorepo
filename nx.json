@@ -68,7 +68,25 @@
     }
   },
   "release": {
+    "projects": ["libs/**"],
+    "projectsRelationship": "independent",
+    "releaseTagPattern": "libs/{projectName}/v{version}",
+    "git": {
+      "commit": true,
+      "commitArgs": ["--no-verify"]
+    },
+    "changelog": {
+      "projectChangelogs": true
+    },
     "version": {
+      "conventionalCommits": true,
+      "manifestRootsToUpdate": [
+        "{projectRoot}",
+        {
+          "path": "dist/libs/{projectName}",
+          "preserveLocalDependencyProtocols": false
+        }
+      ],
       "preVersionCommand": "npx nx run-many -t build"
     }
   }
