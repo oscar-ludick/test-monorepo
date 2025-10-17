@@ -308,13 +308,12 @@ importers:
       angularx-qrcode:
         specifier: ^18.0.0
         version: 18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
-      rxjs:
-        specifier: ~7.8.0
-        version: 7.8.2
-    devDependencies:
       logrocket:
         specifier: ^9.0.1
         version: 9.0.2
+      rxjs:
+        specifier: ~7.8.0
+        version: 7.8.2
       simple-keyboard:
         specifier: ^3.4.174
         version: 3.8.87

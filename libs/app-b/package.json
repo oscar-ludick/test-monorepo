@@ -4,16 +4,15 @@
   "peerDependencies": {
     "@angular/common": "^20.1.0",
     "@angular/core": "^20.1.0",
-    "logrocket": "^9.0.1",
     "rxjs": "~7.8.0",
+    "angularx-qrcode": "^18.0.0",
+    "logrocket": "^9.0.1",
     "simple-keyboard": "^3.4.174"
   },
   "dependencies": {
-    "angularx-qrcode": "^18.0.0"
-  },
-  "devDependencies": {
-    "logrocket": "^9.0.1",
-    "simple-keyboard": "^3.4.174"
+    "angularx-qrcode": "^18.0.0",
+    "simple-keyboard": "^3.4.174",
+    "logrocket": "^9.0.1"
   },
   "publishConfig": {
     "access": "public",
