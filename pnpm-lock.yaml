@@ -5,8 +5,8 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@testing21/app-a': '*'
-  '@testing21/app-b': '*'
+  '@testing21/app-a': workspace:*
+  '@testing21/app-b': workspace:*
 
 importers:
 
@@ -221,11 +221,11 @@ importers:
         specifier: ~20.1.0
         version: 20.1.8(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.1.8(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
       '@testing21/app-a':
-        specifier: '*'
-        version: 0.1.1-beta.19(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
+        specifier: workspace:*
+        version: link:../../libs/app-a
       '@testing21/app-b':
-        specifier: '*'
-        version: 0.1.1-beta.13(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
+        specifier: workspace:*
+        version: link:../../libs/app-b
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -260,8 +260,8 @@ importers:
         specifier: ^18.2.0
         version: 18.2.14(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(@angular/platform-browser@18.2.14(@angular/animations@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(rxjs@7.8.2)
       '@testing21/app-a':
-        specifier: '*'
-        version: 0.1.1-beta.19(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(angularx-qrcode@18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
+        specifier: workspace:*
+        version: link:../../libs/app-a
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -294,8 +294,8 @@ importers:
         specifier: ^20.1.0
         version: 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
       '@testing21/app-b':
-        specifier: '*'
-        version: 0.1.1-beta.13(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
+        specifier: workspace:*
+        version: link:../app-b
 
   libs/app-b:
     dependencies:
@@ -3940,26 +3940,6 @@ packages:
   '@szmarczak/http-timer@4.0.6':
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
-
-  '@testing21/app-a@0.1.1-beta.19':
-    resolution: {integrity: sha512-M4HNexhhrUKFXGAGxw/MQZsxetGt5maQgY3260PkMtYwlYfm8R0cLsOyliwA26p+DkR6pky+gtxHlbj4RYSb1A==}
-    peerDependencies:
-      '@angular/common': ^20.1.0
-      '@angular/core': ^20.1.0
-
-  '@testing21/app-b@0.1.1-beta.13':
-    resolution: {integrity: sha512-EShjDQ3fnXo1rx2OkYFSKk+mStH+cDufzGPQw27Ldb5V5ExDWdcOnHcoLQEAiJFAt0iOmbgC3kdcNk0uKIikCA==}
-    peerDependencies:
-      '@angular/common': ^20.1.0
-      '@angular/core': ^20.1.0
-      angularx-qrcode: ^18.0.0
-      logrocket: ^9.0.1
-      rxjs: ~7.8.0
-      simple-keyboard: ^3.4.174
-    bundledDependencies:
-      - angularx-qrcode
-      - simple-keyboard
-      - logrocket
 
   '@tootallnate/once@2.0.0':
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
@@ -15455,50 +15435,6 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@testing21/app-a@0.1.1-beta.19(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(angularx-qrcode@18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)':
-    dependencies:
-      '@angular/common': 18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2)
-      '@angular/core': 18.2.14(rxjs@7.8.2)(zone.js@0.14.10)
-      '@testing21/app-b': 0.1.1-beta.13(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(angularx-qrcode@18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - angularx-qrcode
-      - logrocket
-      - rxjs
-      - simple-keyboard
-
-  '@testing21/app-a@0.1.1-beta.19(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)':
-    dependencies:
-      '@angular/common': 20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/core': 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@testing21/app-b': 0.1.1-beta.13(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - angularx-qrcode
-      - logrocket
-      - rxjs
-      - simple-keyboard
-
-  '@testing21/app-b@0.1.1-beta.13(@angular/common@18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(angularx-qrcode@18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)':
-    dependencies:
-      '@angular/common': 18.2.14(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2)
-      '@angular/core': 18.2.14(rxjs@7.8.2)(zone.js@0.14.10)
-      angularx-qrcode: 18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10))
-      logrocket: 9.0.2
-      rxjs: 7.8.2
-      simple-keyboard: 3.8.87
-      tslib: 2.8.1
-
-  '@testing21/app-b@0.1.1-beta.13(@angular/common@20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)))(logrocket@9.0.2)(rxjs@7.8.2)(simple-keyboard@3.8.87)':
-    dependencies:
-      '@angular/common': 20.1.8(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/core': 20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)
-      angularx-qrcode: 18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1))
-      logrocket: 9.0.2
-      rxjs: 7.8.2
-      simple-keyboard: 3.8.87
-      tslib: 2.8.1
-
   '@tootallnate/once@2.0.0': {}
 
   '@trysound/sax@0.2.0': {}
@@ -16332,12 +16268,6 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
       - supports-color
-
-  angularx-qrcode@18.0.2(@angular/core@18.2.14(rxjs@7.8.2)(zone.js@0.14.10)):
-    dependencies:
-      '@angular/core': 18.2.14(rxjs@7.8.2)(zone.js@0.14.10)
-      qrcode: 1.5.3
-      tslib: 2.8.1
 
   angularx-qrcode@18.0.2(@angular/core@20.1.8(@angular/compiler@20.1.8)(rxjs@7.8.2)(zone.js@0.15.1)):
     dependencies:

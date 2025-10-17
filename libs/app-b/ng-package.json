@@ -8,9 +8,6 @@
   ],
 
   "lib": {
-    "entryFile": "src/index.ts",
-    "externals": {
-
-    }
+    "entryFile": "src/index.ts"
   }
 }
