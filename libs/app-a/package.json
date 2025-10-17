@@ -1,8 +1,8 @@
 {
   "name": "@testing21/app-a",
-  "version": "0.1.1-beta.14",
+  "version": "0.1.1-beta.15",
   "dependencies": {
-    "@testing21/app-b": "*"
+    "@testing21/app-b": "0.1.1-beta.10"
   },
   "publishConfig": {
     "access": "public",
