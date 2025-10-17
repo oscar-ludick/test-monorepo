@@ -1,12 +1,12 @@
 {
   "name": "@apps/app",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "license": "MIT",
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@testing21/app-a": "0.1.1-beta.14",
-    "@testing21/app-b": "0.1.1-beta.2",
+    "@testing21/app-a": "0.1.1-beta.15",
+    "@testing21/app-b": "0.1.1-beta.10",
     "@angular/common": "~20.1.0",
     "@angular/compiler": "~20.1.0",
     "@angular/core": "~20.1.0",

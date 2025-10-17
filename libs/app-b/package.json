@@ -3,11 +3,26 @@
   "version": "0.1.1-beta.10",
   "peerDependencies": {
     "@angular/common": "^20.1.0",
-    "@angular/core": "^20.1.0"
+    "@angular/core": "^20.1.0",
+    "logrocket": "^9.0.1",
+    "rxjs": "~7.8.0",
+    "simple-keyboard": "^3.4.174"
+  },
+  "dependencies": {
+    "angularx-qrcode": "^18.0.0"
+  },
+  "devDependencies": {
+    "logrocket": "^9.0.1",
+    "simple-keyboard": "^3.4.174"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "bundleDependencies": [
+    "angularx-qrcode",
+    "simple-keyboard",
+    "logrocket"
+  ]
 }
