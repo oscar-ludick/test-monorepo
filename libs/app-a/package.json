@@ -1,6 +1,6 @@
 {
   "name": "@testing21/app-a",
-  "version": "0.1.1-beta.15",
+  "version": "0.1.1-beta.16",
   "dependencies": {
     "@testing21/app-b": "0.1.1-beta.11"
   },
