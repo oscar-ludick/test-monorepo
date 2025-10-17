@@ -1,6 +1,6 @@
 {
   "name": "@testing21/app-a",
-  "version": "0.1.1-beta.20",
+  "version": "0.1.1-beta.21",
   "dependencies": {
     "@testing21/app-b": "workspace:*"
   },
