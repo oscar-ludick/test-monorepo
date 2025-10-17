@@ -78,8 +78,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@testing21/app-a": "workspace:*",
-      "@testing21/app-b": "workspace:*"
+      "@testing21/app-a": "*",
+      "@testing21/app-b": "*"
     }
   }
 }

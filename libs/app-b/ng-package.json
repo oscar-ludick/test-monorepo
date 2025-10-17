@@ -6,7 +6,11 @@
     "simple-keyboard",
     "logrocket"
   ],
+
   "lib": {
-    "entryFile": "src/index.ts"
+    "entryFile": "src/index.ts",
+    "externals": {
+
+    }
   }
 }

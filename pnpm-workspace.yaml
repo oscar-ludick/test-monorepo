@@ -1,9 +1,7 @@
 packages:
   - libs/**
   - apps/**
-
 nodeLinker: hoisted
-preferWorkspacePackages: true
 saveWorkspaceProtocol: false
 onlyBuiltDependencies:
   - nx

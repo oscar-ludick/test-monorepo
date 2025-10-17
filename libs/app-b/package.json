@@ -18,10 +18,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "sideEffects": false,
-  "bundleDependencies": [
-    "angularx-qrcode",
-    "simple-keyboard",
-    "logrocket"
-  ]
+  "sideEffects": false
 }
