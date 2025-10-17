@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
-    "@testing21/app-a": "0.1.1-beta.6",
+    "@testing21/app-a": "0.1.1-beta.14",
     "@testing21/app-b": "0.1.1-beta.2",
     "@angular/common": "~20.1.0",
     "@angular/compiler": "~20.1.0",

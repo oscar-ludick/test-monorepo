@@ -75,5 +75,11 @@
   },
   "nx": {
     "includedScripts": []
+  },
+  "pnpm": {
+    "overrides": {
+      "@testing21/app-a": "workspace:*",
+      "@testing21/app-b": "workspace:*"
+    }
   }
 }
