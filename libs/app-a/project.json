@@ -37,7 +37,10 @@
       "defaultConfiguration": "production"
     },
     "nx-release-publish": {
+      "overrides": {"__overrides_unparsed__":  ["--recursive"]},
       "options": {
+        "overrides": {"__overrides_unparsed__":  ["--recursive"]},
+        "publishArgs": ["-r"],
         "packageRoot": "dist/{projectRoot}"
       }
     },
