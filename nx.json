@@ -100,7 +100,6 @@
           "projectChangelogs": true
         },
         "version": {
-          "updateDependents": "never",
           "groupPreVersionCommand": "pnpm exec nx run-many -t build --projects=libs/*",
           "preserveLocalDependencyProtocols": false,
           "conventionalCommits": true
